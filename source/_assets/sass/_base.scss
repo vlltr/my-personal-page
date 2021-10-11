@@ -5,10 +5,10 @@ body {
 a {
     @apply .font-semibold;
     @apply .no-underline;
-    @apply .text-blue-600;
+    @apply .text-gray-900;
 
     &:hover {
-        @apply .text-blue-800;
+        @apply .text-gray-600;
     }
 }
 
@@ -91,7 +91,7 @@ h6 {
 
 hr {
     @apply .border-b;
-    @apply .border-blue-200;
+    @apply .border-gray-400;
     @apply .my-12;
     @apply .rounded-full;
 }

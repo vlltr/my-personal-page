@@ -3,16 +3,19 @@
 use Illuminate\Support\Str;
 
 return [
-    'baseUrl' => '',
+    'baseUrl' => 'http://localhost:3000/',
     'production' => false,
-    'siteName' => 'Blog Starter Template',
-    'siteDescription' => 'Generate an elegant blog with Jigsaw',
-    'siteAuthor' => 'Author Name',
+    'siteName' => 'Mauricio Villatoro',
+    'siteDescription' => 'Desarrollador Web, Blogger y Podcaster',
+    'siteAuthor' => 'Mauricio Villatoro',
+    'image' => '',
+    'siteShortName' => 'vlltr.',
+
 
     // collections
     'collections' => [
         'posts' => [
-            'author' => 'Author Name', // Default author, if not provided in a post
+            'author' => 'Mauro', // Default author, if not provided in a post
             'sort' => '-date',
             'path' => 'blog/{filename}',
         ],
